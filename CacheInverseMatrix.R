@@ -1,5 +1,16 @@
 #R Programming Course - Programming Assignment 2 - Peer Assessment
 
+
+##makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
+
+
+
+
+##cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above. If the inverse has already been calculated (and the matrix has not changed), then the cachesolve should retrieve the inverse from the cache.
+
+
+
+
 ##Function makeVector creates a special "vector", which is really a list containing a function to 
 ##1.set the value of the vector
 ##2.get the value of the vector
@@ -26,7 +37,6 @@ makeVector <- function(x = numeric()) {
 ##If so, it gets the mean from the cache and skips the computation. 
 ##Otherwise, it calculates the mean of the data and sets the value of the mean in the cache via 
 ##the setmean function.
-
 
 
 cachemean <- function(x, ...) {
